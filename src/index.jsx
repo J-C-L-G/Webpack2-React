@@ -3,15 +3,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 
+// Styles
+import './index.scss';
+
 // Components
 import App from './components/app/App.jsx';
 
 function renderApp(){
     ReactDOM.render(
         <AppContainer>
-            <App />
+            <App author="JCLG" />
         </AppContainer>,
-        document.getElementById('main'));
+        document.getElementById('main')
+    );
 }
 
 renderApp();

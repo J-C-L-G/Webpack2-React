@@ -1,2 +1,4 @@
 # Webpack2-React
-Webpack2 minimalist configuration for React and hmr 3
+Webpack 2 minimalist configuration for React and hmr 3
+
+Includes Bootstrap & Font Awesome
